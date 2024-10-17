@@ -1,0 +1,244 @@
+
+html {
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+    
+  }
+  
+  #titulo{
+  
+    display: inline-flex;
+    color: #972d0d;
+    border: 1000px;
+    margin: 40px 28%;
+  }
+  
+  #logo{
+  
+    
+   display: inline-block;
+   width: 180px;
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 20px;
+  }
+  
+  p{
+  
+    color: #000000;
+    font-size: 20px;  
+    height: 100px;
+    
+  }
+  
+  
+  button{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: #ffffff;
+    color: #6b0d97;
+    border: none;
+    padding: 10px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 30px 5%;
+    cursor: pointer;
+    border-radius: 20px;
+    transition: transform 1s;
+    transform: translateX(0) scale(1);
+    
+  }
+  
+  button:hover,
+  button:focus {
+    background: #c7c7c7;
+    transform: translateX(10px) scale(1.2);
+
+  
+  }
+  
+  a{
+  
+  color: rgb(255, 255, 255);
+    
+  }
+  
+  #fundo2{
+      background-color: #a1a1a1;
+      border-bottom-left-radius: 50px;
+      border-bottom-right-radius: 50px;
+      height: 130px;
+
+  }
+
+  #fundo{
+
+    background-color: #ffffff;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    height: 110px;
+    display:flex;
+    position: relative;
+  }
+  
+  #base2{
+
+    margin-left: 10%;
+    margin-right:10%;
+    background-color: #a1a1a1;
+    border-radius: 40px;
+    height: 480px;
+  }
+
+  #base{
+    background-color: #ffffff;
+    border-radius: 40px;
+    height: 450px;   
+    display: flex;
+    justify-content: space-around;
+  }
+
+
+
+  #DDV{
+  
+  color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+  }
+  
+  #ddv1{
+  
+  color: #380404;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+  }
+  
+  body{
+  
+  background-color: #380404;
+    
+  }
+
+  #dev{
+  
+    display: inline-block;
+    padding: 20px;
+    font-size: 25px;
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+  }
+  
+  .DEV{
+  
+  color: #000;
+    font-weight: bold;
+    
+  }
+  
+  .LO{
+  
+  color: #000;
+    font-weight: bold;
+    
+  }
+  
+  #h1{
+    color: #6b0d97;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+    font-size: 40;
+
+  }
+
+  #p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+  }
+
+  #p0{
+  
+    text-align: center;
+    color: #8b25a7;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+  }
+  
+  #p1{
+  
+    text-align: left;
+    color: #ee0101;
+    font-weight: bold;
+    padding: 4px;
+  
+  }
+  
+  @keyframes colorChange {
+    0% {
+      color: #a80dd3;
+    }
+    50% {
+      color: #5a007a;
+    }
+    100% {
+      color: #380404;
+    }
+  }
+  
+  #titulo {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 3%;
+    animation: colorChange 5s infinite;
+    animation-play-state: running;
+  }
+
+  #titule {
+    color: #380404; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20;
+  }
+  
+  .listas{
+  
+    display: inline-block;
+    padding: 35px;
+    
+  }
+  
+  .li1{
+  
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    
+  }
+  
+  .li2{
+  
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    
+  }
+  
+  .li3{
+  
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    
+  }
+  
+  .li4{
+  
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+    
+  }
+
+  
